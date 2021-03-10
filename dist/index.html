@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend-разработчик и веб-верстальщик</title>
+    <link rel="preload" href="fonts/Roboto-Regular.woff2" as="font" type="font/woff2" crossorigin>
+    <meta name="description"
+        content="Сайт визитка, сделаный в качестве домашнего задания в онлайн академии, Junior Frontend-разработчиком ">
+    <meta name="keywords"
+        content="Сайт визитка, программирование, Лендинг, Сколько стоит сайт, Заказать, разработчик, Junior Frontend-разработчик">
+    <meta name="Author" content="Гартер Сергей Алексеевич">
+    <meta name="Copyright" content="Гартер Сергей Алексеевич">
+    <meta name="Address" content="Луна, кратер №97">
+    <link rel="stylesheet" href="css/swiper-bundle.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <script src="js/jquery-3.4.1.min.js" defer></script>
+    <script src="js/swiper-bundle.js" defer></script>
+    <script src="js/script.js" defer></script>
+</head>
+
+<body>
+    <div class="modal ">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <p class="modal-text">Укажите ваш телефон и e-mail, и мы свяжемся с вами.</p>
+            <form action="">
+                <div class="phone-number">
+                    <input type="tel" placeholder="Ваш телефон">
+                    <input type="email" placeholder="Ваш email">
+                </div>
+                <div id="send-wrapper"> <button class="send-btn">Отправить</button></div>
+            </form>
+        </div>
+    </div>
+    <header class="header">
+        <div class="fixed-container">
+            <div class="header-body">
+                <div class="header-burger">
+                    <span class="header-burger__logo"></span>
+                </div>
+                <nav class="header__menu">
+                    <div class="navigation">
+                        <ul class="first-list">
+                            <li class="item-menu">
+                                <a href="#service" class="item-link">Услуги</a>
+                            </li>
+                            <li class="item-menu">
+                                <a href="#mysites" class="item-link">Портфолио</a>
+                            </li>
+                            <li class="price-item">
+                                <a href="#price" class="item-link">Стоимость</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                <div class="secondary-navigation">
+                    <a href="tel:+79608398939" class="item item-link phone">+7 (9608) 39-89-39</a>
+                    <button id="" class="item item-link call-back callback-btn">Заказать Звонок</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="first-wrapper">
+        <div class="fly-head">&#123; &#125;</div>
+        <div class="fly-head-one"> &#9839;</div>
+        <div class="top-section__ellipse">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="920px"
+                height="764px">
+                <defs>
+                    <linearGradient id="PSgrad_0" x1="0%" x2="22.495%" y1="97.437%" y2="0%">
+                        <stop offset="0%" stop-color="rgb(255,143,90)" stop-opacity="1" />
+                        <stop offset="99%" stop-color="rgb(255,47,150)" stop-opacity="1" />
+                    </linearGradient>
+                </defs>
+                <path fill-rule="evenodd" fill="rgb(96, 85, 196)"
+                    d="M395.520,40.407 C502.261,-10.049 602.994,-10.204 687.212,27.671 C771.647,65.238 839.568,140.836 885.703,234.785 C929.973,329.669 929.926,431.584 893.771,514.027 C857.115,597.700 796.105,660.782 712.966,705.804 C668.936,728.473 622.654,744.002 563.818,753.535 C505.757,762.929 435.142,766.325 360.325,761.479 C211.851,752.158 45.449,708.398 10.358,609.690 C-9.529,560.677 2.954,504.492 27.679,447.950 C52.809,391.326 90.181,334.346 129.419,281.835 C169.063,229.242 210.573,181.118 253.309,140.306 C296.450,99.410 340.817,65.827 395.520,40.407 L395.520,40.407 Z" />
+                <path fill="url(#PSgrad_0)"
+                    d="M395.520,40.407 C502.261,-10.049 602.994,-10.204 687.212,27.671 C771.647,65.238 839.568,140.836 885.703,234.785 C929.973,329.669 929.926,431.584 893.771,514.027 C857.115,597.700 796.105,660.782 712.966,705.804 C668.936,728.473 622.654,744.002 563.818,753.535 C505.757,762.929 435.142,766.325 360.325,761.479 C211.851,752.158 45.449,708.398 10.358,609.690 C-9.529,560.677 2.954,504.492 27.679,447.950 C52.809,391.326 90.181,334.346 129.419,281.835 C169.063,229.242 210.573,181.118 253.309,140.306 C296.450,99.410 340.817,65.827 395.520,40.407 L395.520,40.407 Z" />
+            </svg>
+        </div>
+        <div class="fixed-container">
+            <div class="first-block">
+                <div class="top-section__pic">
+                    <picture>
+                        <source srcset="img/man.webp" type="image/webp"><img src="img/man.png"
+                            alt="Иван Иванович | Frontend-разработчик и веб-верстальщик"></picture>
+                </div>
+                <div class="fly-head-two"> &lt; <b>&frasl;</b> &gt;</div>
+                <div class="fly-head-three"> &lt; div &gt;</div>
+                <div class="fly-head-four"> &lt; div &gt;</div>
+                <section class="first-card">
+                    <h1>Сергей Гартер</h1>
+                    <h2>Frontend-разработчик и веб-верстальщик</h2>
+                    <button class="price-botton callback-btn">Узнать больше</button>
+                </section>
+            </div>
+        </div>
+    </div>
+    <div class="fixed-container">
+        <div class="second-block">
+            <p id="service" class="hone">Что я делаю</p>
+            <ul class="service-list">
+                <li class="service-item">
+                    <div class="icons icons-one">
+                        <p>Вёрстка лендинг–страниц&nbsp;и сайтов любой сложности</p>
+                    </div>
+                </li>
+                <li class="service-item">
+                    <div class="icons icons-two">
+                        <p>Адаптивная вёрстка под все
+                            браузеры и устройства</p>
+                    </div>
+                </li>
+                <li class="service-item">
+                    <div class="icons icons-three">
+                        <p>Frontend–разработка
+                            и программирование</p>
+                    </div>
+                </li>
+                <li class="service-item">
+                    <div class="icons icons-four">
+                        <p>Исправление и доработка
+                            существующей вёрстки</p>
+                    </div>
+                </li>
+            </ul>
+            <div class="btn-wrapper">
+                <button class="price-botton second-button callback-btn">Заказать проект</button>
+            </div>
+        </div>
+        <div class="third-block">
+            <p id="mysites" class="hone">Примеры моих работ</p>
+            <div class="swiper-overlay">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="img/Layer 1.png" alt="">
+                            <p class="swiper-text">Сайт психолога Веры Антоновой</p>
+                        </div>
+                        <div class="swiper-slide"><img src="img/Layer 2.png" alt="">
+                            <p class="swiper-text">Сайт магазина детской одежды</p>
+                        </div>
+                        <div class="swiper-slide"><img src="img/Layer 3.png" alt="">
+                            <p class="swiper-text">Сайт любителей рыбалки</p>
+                        </div>
+                    </div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                </div>
+                <!-- Add Arrows -->
+                <div class="swiper-button-next"><img style="transform: rotate(180deg); z-index: 20;" src="img/arrow.png"
+                        alt="">
+                </div>
+                <div class="swiper-button-prev"><img src="img/arrow.png" alt=""></div>
+            </div>
+            <div class="order-button"><button class="price-botton callback-btn">Заказать проект</button></div>
+        </div>
+    </div>
+    <div class="banner">
+        <div class="fly">&#123; &#125;</div>
+        <div class="fly-four"> &#9839;</div>
+        <div class="banner-text">
+            <p>Адаптивная вёрстка под все устройства и&nbsp;браузеры от&nbsp;1000 рублей всего за&nbsp;4&nbsp;часа.*</p>
+            <p class="span">&#9913;Срок и&nbsp;стоимость могут отличаться от&nbsp;заявленных
+                и&nbsp;рассчитываются
+                индивидуально, &nbsp;&nbsp;в зависимости от сложности задач.
+            </p>
+        </div>
+        <div class="fly-three"> &lt; div &gt;</div>
+        <div class="fly-two"> &lt; &frasl; &gt;</div>
+    </div>
+    <footer>
+        <div class="fixed-container">
+            <div class="footer">
+                <div class="footer-list">
+                    <ul>
+                        <li class="item-menu"><a href="#service">Услуги</a></li>
+                        <li class="item-menu"><a href="#mysites">Портфолио</a></li>
+                        <li class="callback-btn"><a href="#">Стоимость</a></li>
+                    </ul>
+                </div>
+                <div class="contacts">
+                    <div class="phone-wrapper">
+                        <div class="phone-icon"></div>
+                        <a href="tel:+7(499)995-55-55" aria-label="Горячая линия" target="blanc">+7
+                            (499) 995-55-55</a>
+                    </div>
+                    <div class="phone-wrapper">
+                        <div class="mail-icon"></div>
+                        <a href="mailto:info@agency.ru" aria-label="Почтовый ящик" target="blanc">info@agency.ru</a>
+                    </div>
+                </div>
+                <h2 class="visually-hidden">Меню футера</h2>
+                <div class="social-footer">
+                    <h2 class="visually-hidden">Социальные сети</h2>
+                    <button class="item item-link call-back callback-btn">Заказать Звонок</button>
+                    <ul class="footer-icons">
+                        <li class="sprite">
+                            <a class="vk" href="https://vk.com/feed" aria-label="Вконтакте" target="blanc"> </a>
+                        </li>
+                        <li class="sprite">
+                            <a class="fb" href="https://www.facebook.com/" aria-label="Фейсбук" target="blanc"></a>
+                        </li>
+                        <li class="sprite">
+                            <a class="tw" href="https://twiter.com/" aria-label="Твитер" target="blanc"></a>
+                        </li>
+                        <li class="sprite">
+                            <a class="inst" href="https://www.instagram.com/" aria-label="Инстограм" target="blanc"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="copyrights">
+            <small>&copy; Garter Sergei, 2021-2022 </small>
+        </div>
+    </footer>
+</body>
+
+</html>
