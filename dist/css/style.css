@@ -1249,6 +1249,7 @@ small {
     height: 20px;
     margin-left: 40px;
     z-index: 5;
+    cursor: pointer;
   }
 
   .header-burger span {
@@ -1274,6 +1275,7 @@ small {
     -webkit-transition: all 0.5s ease 0s;
     -o-transition: all 0.5s ease 0s;
     transition: all 0.5s ease 0s;
+    cursor: pointer;
   }
 
   .header-burger:before {
